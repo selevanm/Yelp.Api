@@ -1,6 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Threading;
 using Yelp.Api.Models;
 
 namespace Yelp.Api.Test
@@ -10,7 +8,7 @@ namespace Yelp.Api.Test
     {
         #region Variables
 
-        private const string API_KEY = "";
+        private const string API_KEY = "HMGqlEOyChN-czEUxZbNt7cmsHcp1IKt2RlWpyRRvsyd_ashIBOV9PGuYt0GawzVL9XqoyOxw923iVC1nJYzsCTBbzWx6SpxfKg0WyKRjur2B-e_DCUytsdOTEvjXHYx";
 
         private readonly Client _client;
 
